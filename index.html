@@ -3,20 +3,24 @@
   <head>
   	<style>
 	.pagematerial {
-  		max-width: 900px;
+  		max-width: 775px;
   		margin: auto;
 	}
-	.photo {
-		max-width: 300px;
+	.gap {
+  		column-gap: 40px;
+	}
+	.alignment {
+		width: 90%; 
+		float: left;
 	}
 	@media only screen and (min-width: 992px) {
-	  #intro {
-	    float: left ;
-	    width: 25% ;
-	  }
-	  #content {
-	    float: right;
-	    width: 75%;
+	  .photo {
+		float: left;
+		width: 25%;
+	   }
+	  .text {
+		width: 75%;
+		float: left;
 	  }
     }
 	</style>
@@ -27,22 +31,22 @@
 
 	<body style="font-family:Verdana,garamond,serif;font-size:14px;">
 		<div class="pagematerial">
-		<div  id='title' class="vertical-center" style="background-color:#0375B4;"><h1><center><a style="color:white;font-size:24px">MEENA JAGADEESAN</a></center></h1></div>
-		<div id="container">
-		  <div id="intro" style="vertical-align:top;"> 
-			<center>
-				<div class="photo">
-		  			<img src="Siebel-photo.jpg" width="55%">
-				</div><br>
-		  		<a style="font-size:16px;"><span>Undergraduate</span></a><br><br>
-		  		<a style="font-size:16px;"><span>Harvard Class of 2020</span></a><br><br>
-		  	</center>
-		  </div>
-		  <div id="content" style="vertical-align:top;">
-		  	 	<span>I am in my fourth (and final) year of a joint Bachelor-Masters program at Harvard. I study computer science, math, and statistics.</span><br><br> 
-		  	 	<span>Currently, I am broadly interested in research in theoretical computer science.</span><br><br> 
-				<span>My CV can be found </span><a href='CV-ResearchNew.pdf'><span>here</span></a><span>. Email: mjagadeesan [at] college [dot] harvard [dot] edu</span>
-
+		<div id="title" style="vertical-align::top">
+		  	<h1><a style="color:black;font-size:28px">Meena Jagadeesan</a></h1>
+		</div>
+  		<div class="photo">
+  			<div class="alignment">
+  			<center>
+  				<img src="Siebel-photo.jpg" width="100%"><br><br>
+  				<a style="font-size:16px;"><span>Undergraduate</span></a><br><br>
+  				<a style="font-size:16px;"><span>Harvard 2020</span></a><br><br>
+  			</div>
+  			</center>
+		</div>
+		<div class="text" style="vertical-align:top;">
+  	 		<span>I am in my fourth (and final) year of a joint Bachelor-Masters program at Harvard. I study computer science, math, and statistics.</span><br><br> 
+  	 		<span>Currently, I am broadly interested in research in theoretical computer science.</span><br><br> 
+			<span>My CV can be found </span><a href='CV-ResearchNew.pdf'><span>here</span></a><span>. Email: mjagadeesan[at]college[dot]harvard[dot]edu</span>
 			<h3><a name="publications"></a><span>Publications</span></h3>
 			<ul>
 				<li><strong><a href='https://dl.acm.org/doi/abs/10.1145/3351095.3372848'><span>Multi-Category Fairness in Sponsored Search Auctions</span></a></strong><br>
@@ -71,7 +75,6 @@
 				<li><i><strong><a><span>[Research project on browser extension security]</span></strong></a></i></a><a><span> (with Alisha Ukani, Alexander Wei, James Mickens)</span></a></li><br>
 				<li><i><strong><a><span>[Research project on automating data structure design]</span></a></strong></i><a><span> (with the </span></a><a href='http://daslab.seas.harvard.edu/'><span>Harvard Data Systems Laboratory</span></a><a><span>)</span></a></li>
 			</ul>
-		  </div>
 		</div>
 		</div>
 	</body>
