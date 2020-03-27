@@ -6,21 +6,30 @@
   		max-width: 775px;
   		margin: auto;
 	}
-	.gap {
-  		column-gap: 40px;
-	}
 	.alignment {
 		width: 90%; 
 		float: left;
 	}
+	.photobounded {
+		max-width: 200px
+	}
 	@media only screen and (min-width: 992px) {
 	  .photo {
-		float: left;
 		width: 25%;
+		float: left;
 	   }
 	  .text {
 		width: 75%;
 		float: left;
+	  }
+    }
+    @media only screen and (max-width: 991px) {
+	  .photo {
+		width: 100%;
+	   }
+	  .text {
+		width: 100%;
+		float: right;
 	  }
     }
 	</style>
@@ -35,11 +44,13 @@
 		  	<h1><a style="color:black;font-size:28px">Meena Jagadeesan</a></h1>
 		</div>
   		<div class="photo">
+  			 <center>
+  			<div class="photobounded">
   			<div class="alignment">
-  			<center>
   				<img src="Siebel-photo.jpg" width="100%"><br><br>
   				<a style="font-size:16px;"><span>Undergraduate</span></a><br><br>
   				<a style="font-size:16px;"><span>Harvard 2020</span></a><br><br>
+  			</div>
   			</div>
   			</center>
 		</div>
