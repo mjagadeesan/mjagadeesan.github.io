@@ -1,0 +1,68 @@
+	.pagematerial {
+  		max-width: 800px;
+  		margin: auto;
+  		font-weight:300;
+	}
+	.pagematerial b {
+    text-decoration: none;
+    font-weight:500;
+}
+	.pagematerial a {
+    color: #ab425f;
+    text-decoration: none;
+    font-weight:300;
+}
+
+	.pagematerial a:hover {
+    	cursor: pointer;
+    color: purple;
+		}
+	.alignment {
+		width: 90%; 
+		float: left;
+	}
+	.photobounded {
+		max-width: 200px
+	}
+	@media only screen and (min-width: 992px) {
+	  .photo {
+		width: 25%;
+		float: left;
+	   }
+	  .text {
+		width: 75%;
+		float: left;
+	  }
+    }
+    @media only screen and (max-width: 991px) {
+	  .photo {
+		width: 100%;
+	   }
+	  .text {
+		width: 100%;
+		float: right;
+	  }
+    }
+
+    body {
+    	font-family: 'Roboto', Helvetica, Arial, san-serif;
+    	font-size:16px;
+	}
+
+h1 {
+    margin-top: 15px;
+    font-size:30px;
+    font-weight:400;
+}
+
+h2 {
+    margin: 5px 0 5px 0;
+    font-weight: 400;
+    padding: 0;
+}
+
+h3 {
+    padding-top: 15px;
+    font-weight: 400;
+    font-size:22px;
+}
