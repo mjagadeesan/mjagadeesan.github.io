@@ -24,7 +24,7 @@
 	.photobounded {
 		max-width: 200px
 	}
-	@media only screen and (min-width: 992px) {
+	@media only screen and (min-width: 850px) {
 	  .photo {
 		width: 25%;
 		float: left;
@@ -34,7 +34,7 @@
 		float: left;
 	  }
     }
-    @media only screen and (max-width: 991px) {
+    @media only screen and (max-width: 850px) {
 	  .photo {
 		width: 100%;
 	   }
