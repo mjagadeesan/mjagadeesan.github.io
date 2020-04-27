@@ -21,29 +21,32 @@
 		width: 90%; 
 		float: left;
 	}
+
 	.photobounded {
 		max-width: 200px
 	}
-	   .title{
+	
+	.title{
    	width:100%;
    	float:none;
    }
-   .name {
-	width: 75%;
-	float:left;
-	height:75px;
-	text-align: left;
-   }
-   .navigation {
-	width: 25%;
-	float:right;
-	height:75px;	
-	text-align: right;
-   }
+
    	.material{
-	   float:none;
+	   width:100%;
 	}
 	@media only screen and (min-width: 850px) {
+	.name {
+		width: 80%;
+		float:left;
+		height:75px;
+		text-align: left;
+	   }
+	   .navigation {
+		width: 20%;
+		float:right;
+		height:75px;	
+		text-align: right;
+	   }
 	  .photo {
 		width: 25%;
 		float: left;
@@ -54,8 +57,12 @@
 	  }
     }
     @media only screen and (max-width: 850px) {
+	   .navigation {
+		margin-top: -25px;
+	   }
 	  .photo {
 		width: 100%;
+		text-align:center;
 	   }
 	  .text {
 		width: 100%;
