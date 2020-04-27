@@ -35,13 +35,13 @@
 	}
 	@media only screen and (min-width: 700px) {
 	.name {
-		width: 75%;
+		width: 65%;
 		float:left;
 		height:75px;
 		text-align: left;
 	   }
 	   .navigation {
-		width: 25%;
+		width: 35%;
 		float:right;
 		height:75px;	
 		text-align: right;
