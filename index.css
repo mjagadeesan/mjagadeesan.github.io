@@ -24,6 +24,25 @@
 	.photobounded {
 		max-width: 200px
 	}
+	   .title{
+   	width:100%;
+   	float:none;
+   }
+   .name {
+	width: 75%;
+	float:left;
+	height:75px;
+	text-align: left;
+   }
+   .navigation {
+	width: 25%;
+	float:right;
+	height:75px;	
+	text-align: right;
+   }
+   	.material{
+	   float:none;
+	}
 	@media only screen and (min-width: 850px) {
 	  .photo {
 		width: 25%;
@@ -31,7 +50,7 @@
 	   }
 	  .text {
 		width: 75%;
-		float: left;
+		float: right;
 	  }
     }
     @media only screen and (max-width: 850px) {
@@ -50,15 +69,13 @@
 	}
 
 h1 {
-    margin-top: 15px;
     font-size:30px;
     font-weight:500;
 }
 
 h2 {
-    margin: 5px 0 5px 0;
+    font-size:30px;
     font-weight:500;
-    padding: 0;
 }
 
 h3 {
