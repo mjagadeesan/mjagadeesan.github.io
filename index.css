@@ -65,6 +65,11 @@
     	font-family: 'Raleway', Arial, san-serif;
     	font-size:16px;
 	}
+	h3 {
+    padding-top: 15px;
+    font-weight:500;
+    font-size:22px;
+	}
     }
     @media only screen and (max-width: 700px) {
 	   .navigation {
@@ -90,16 +95,14 @@
     	font-family: 'Raleway', Arial, san-serif;
     	font-size:14px;
 	  }
-    }
-
-h1 {
-    font-size:30px;
-    font-weight:500;
-}
-
-
-h3 {
+	h3 {
     padding-top: 15px;
     font-weight:500;
-    font-size:22px;
-}
+    font-size:20px;
+	}
+    }
+	h1 {
+    	font-size:30px;
+    	font-weight:500;
+	}
+
