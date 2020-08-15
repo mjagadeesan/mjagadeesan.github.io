@@ -2,6 +2,7 @@
 
 	 	<!-- 	<span>This spring, I graduated from Harvard, where I studied computer science, math, and statistics. In Fall 2020, I'll be starting a PhD in Computer Science at UC Berkeley. This summer, I'm interning at <a href='https://www.microsoft.com/en-us/research/lab/microsoft-research-ai/'>Microsoft Research AI</a>.</span><br><br> -->
 
+and I'm currently excited about algorithms for dimensionality reduction, algorithmic mechanism design, and algorithmic fairness
 	 	Press and Media:
 
 	 	Profiles
