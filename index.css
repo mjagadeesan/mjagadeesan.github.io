@@ -47,15 +47,15 @@
 		text-align: right;
 	   }
 	  .photo {
-		width: 25%;
+		width: 37%;
 		float: left;
 	   }
 	   .photo-nothome {
-		width: 25%;
+		width: 37%;
 		float: left;
 	   }
 	  .text {
-		width: 75%;
+		width: 63%;
 		float: right;
 	  }
 	  .caption {
@@ -79,7 +79,7 @@
 		display: block;
   		margin-left: auto;
   		margin-right: auto;
-  		width: 50%;
+  		width: 65%;
 	   }
 	   .photo-nothome {
 	   		display:none;
