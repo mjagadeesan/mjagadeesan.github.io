@@ -28,7 +28,7 @@
 	}
 
 	.pagematerial{
-	 	max-width: 750px;
+	 	max-width: 1000px;
   		font-weight:400;
  		margin: auto;
 	 }
@@ -79,7 +79,7 @@
 		display: block;
   		margin-left: auto;
   		margin-right: auto;
-  		width: 65%;
+  		width: 60%;
 	   }
 	   .photo-nothome {
 	   		display:none;
