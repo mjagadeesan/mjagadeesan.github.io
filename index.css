@@ -47,7 +47,7 @@
 		text-align: right;
 	   }
 	  .photo {
-		width: 30%;
+		width: 20%;
 		float: left;
 	   }
 	   .photo-nothome {
@@ -55,7 +55,7 @@
 		float: left;
 	   }
 	  .text {
-		width: 70%;
+		width: 80%;
 		float: right;
 	  }
 	  .caption {
