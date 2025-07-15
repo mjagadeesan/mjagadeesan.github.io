@@ -34,7 +34,7 @@
     margin: auto;
 }
 
-@media only screen and (min-width: 700px) {
+@media only screen and (min-width: 800px) {
     .name {
         width: 60%;
         float: left;
@@ -48,25 +48,21 @@
         height: 75px;	
         text-align: right;
     }
-    
-    .photo {
+  
+  .photo {
         width: 33%;
         float: left;
     }
-    
-    .photo-nothome {
-        width: 33%;
-        float: left;
-    }
-    
+
+
     .first-section {
-        width: 67%;
-        float: right;
-        margin-bottom: 0px;
+        width: 100%;
+        float: none;
+        margin-bottom: 20px;
     }
     
     .second-section {
-        width: 100%;
+        width: 100%
         float: none;
         clear: both;
         margin-top: 0px;
@@ -88,7 +84,7 @@
     }
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 800px) {
     .navigation {
         margin-top: -25px;
     }
