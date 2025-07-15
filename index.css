@@ -50,7 +50,7 @@
     }
     
     .photo {
-        width: 30%;
+        width: 25%;
         float: left;
     }
     
@@ -60,7 +60,7 @@
     }
     
     .first-section {
-        width: 70%;
+        width: 75%;
         float: right;
         margin-bottom: 20px;
     }
