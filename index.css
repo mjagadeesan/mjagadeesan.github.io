@@ -1,108 +1,139 @@
-	.pagematerial b {
+.pagematerial b {
     text-decoration: none;
-    font-weight:700;
+    font-weight: 700;
 }
-	.pagematerial a {
+
+.pagematerial a {
     color: #DB7093;
     text-decoration: none;
-    font-weight:400;
+    font-weight: 400;
 }
 
-	.pagematerial a:hover {
-    	cursor: pointer;
+.pagematerial a:hover {
+    cursor: pointer;
     color: purple;
-		}
+}
 
-	.photobounded {
-		width: 90%;
-		max-width: 300px;
-	}
-	
-	.title{
-   	width:100%;
-   	float:none;
-   }
+.photobounded {
+    width: 90%;
+    max-width: 300px;
+}
 
-   	.material{
-	   width:100%;
-	}
+.title {
+    width: 100%;
+    float: none;
+}
 
-	.pagematerial{
-	 	max-width: 1000px;
-  		font-weight:400;
- 		margin: auto;
-	 }
+.material {
+    width: 100%;
+}
 
-	@media only screen and (min-width: 700px) {
-	.name {
-		width: 60%;
-		float:left;
-		height:75px;
-		text-align: left;
-	   }
-	   .navigation {
-		width: 40%;
-		float:right;
-		height:75px;	
-		text-align: right;
-	   }
-	  .photo {
-		width: 20%;
-		float: left;
-	   }
-	   .photo-nothome {
-		width: 30%;
-		float: left;
-	   }
-	  .text {
-		width: 80%;
-		float: right;
-	  }
-	  .caption {
-	  	font-size:18px;
-	  }
-	   body {
-    	font-family: 'Raleway', Arial, san-serif;
-    	font-size:16px;
-	}
-	h3 {
-    padding-top: 15px;
-    font-weight:500;
-    font-size:24px;
-	}
+.pagematerial {
+    max-width: 1000px;
+    font-weight: 400;
+    margin: auto;
+}
+
+@media only screen and (min-width: 700px) {
+    .name {
+        width: 60%;
+        float: left;
+        height: 75px;
+        text-align: left;
     }
-    @media only screen and (max-width: 700px) {
-	   .navigation {
-		margin-top: -25px;
-	   }
-	  .photo {
-		display: block;
-  		margin-left: auto;
-  		margin-right: auto;
-  		width: 60%;
-	   }
-	   .photo-nothome {
-	   		display:none;
-	   }
-	   .caption {
-	   		display:none;
-	   }
-	  .text {
-		width: 100%;
-		float: right;
-	  }
-	  body {
-    	font-family: 'Raleway', Arial, san-serif;
-    	font-size:15px;
-	  }
-	h3 {
-    padding-top: 15px;
-    font-weight:500;
-    font-size:20px;
-	}
+    
+    .navigation {
+        width: 40%;
+        float: right;
+        height: 75px;	
+        text-align: right;
     }
-	h1 {
-    	font-size:30px;
-    	font-weight:500;
-	}
+    
+    .photo {
+        width: 30%;
+        float: left;
+    }
+    
+    .photo-nothome {
+        width: 30%;
+        float: left;
+    }
+    
+    .first-section {
+        width: 70%;
+        float: right;
+        margin-bottom: 20px;
+    }
+    
+    .second-section {
+        width: 100%;
+        float: none;
+        clear: both;
+        margin-top: 20px;
+    }
+    
+    .caption {
+        font-size: 18px;
+    }
+    
+    body {
+        font-family: 'Raleway', Arial, sans-serif;
+        font-size: 16px;
+    }
+    
+    h3 {
+        padding-top: 15px;
+        font-weight: 500;
+        font-size: 24px;
+    }
+}
 
+@media only screen and (max-width: 700px) {
+    .navigation {
+        margin-top: -25px;
+    }
+    
+    .photo {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+    }
+    
+    .photo-nothome {
+        display: none;
+    }
+    
+    .caption {
+        display: none;
+    }
+    
+    .first-section {
+        width: 100%;
+        float: none;
+        margin-bottom: 20px;
+    }
+    
+    .second-section {
+        width: 100%;
+        float: none;
+        clear: both;
+        margin-top: 20px;
+    }
+    
+    body {
+        font-family: 'Raleway', Arial, sans-serif;
+        font-size: 15px;
+    }
+    
+    h3 {
+        padding-top: 15px;
+        font-weight: 500;
+        font-size: 20px;
+    }
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: 500;
+}
