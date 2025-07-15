@@ -33,7 +33,7 @@ GEM
       sassc (> 2.0.1, < 3.0)
     jekyll-watch (2.2.1)
       listen (~> 3.0)
-    json (2.0.2)
+    json (2.12.2)
     kramdown (2.3.0)
       rexml
     kramdown-parser-gfm (1.1.0)
@@ -57,16 +57,19 @@ GEM
     terminal-table (2.0.0)
       unicode-display_width (~> 1.1, >= 1.1.1)
     unicode-display_width (1.7.0)
+    webrick (1.9.1)
 
 PLATFORMS
+  universal-darwin-22
   x86_64-darwin-19
 
 DEPENDENCIES
   jekyll
-  json (= 2.0.2)
+  json (>= 2.6)
+  webrick (~> 1.9)
 
 RUBY VERSION
-   ruby 2.5.8p224
+   ruby 3.1.4p223
 
 BUNDLED WITH
    2.2.3
