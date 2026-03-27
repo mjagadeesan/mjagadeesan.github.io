@@ -15,7 +15,7 @@
 }
 
 .photobounded {
-    width: 90%;
+    width: 100%;
     max-width: 300px;
 }
 
@@ -36,33 +36,34 @@
 
 @media only screen and (min-width: 820px) {
     .name {
-        width: 60%;
+        width: 67%;
         float: left;
         height: 75px;
         text-align: left;
     }
-    
+
     .navigation {
-        width: 40%;
+        width: 31%;
         float: right;
-        height: 75px;	
+        height: 75px;
         text-align: right;
     }
   
-  .photo {
-        width: 33%;
-        float: left;
+    .photo {
+        width: 31%;
+        float: right;
+        text-align: right;
     }
 
 
     .first-section {
-        width: 100%;
-        float: none;
+        width: 67%;
+        float: left;
         margin-bottom: 20px;
     }
     
     .second-section {
-        width: 100%
+        width: 100%;
         float: none;
         clear: both;
         margin-top: 0px;
