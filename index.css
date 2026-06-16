@@ -36,28 +36,28 @@
 
 @media only screen and (min-width: 820px) {
     .name {
-        width: 67%;
+        width: 63%;
         float: left;
         height: 75px;
         text-align: left;
     }
 
     .navigation {
-        width: 31%;
+        width: 34%;
         float: right;
         height: 75px;
         text-align: right;
     }
   
     .photo {
-        width: 31%;
+        width: 34%;
         float: right;
         text-align: right;
     }
 
 
     .first-section {
-        width: 67%;
+        width: 63%;
         float: left;
         margin-bottom: 20px;
     }
