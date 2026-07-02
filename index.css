@@ -29,9 +29,10 @@
 }
 
 .pagematerial {
-    max-width: 800px;
+    max-width: 850px;
     font-weight: 400;
     margin: auto;
+    line-height: 1.35;
 }
 
 @media only screen and (min-width: 820px) {
