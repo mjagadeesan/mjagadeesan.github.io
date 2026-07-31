@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="course.css">
+    <link href="https://fonts.googleapis.com/css?family=Arial:400,400i,500,500i,700" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CIS 7000: Machine Learning Ecosystems (Fall 2026) </title>
+  </head>
+
+  <body>
+    <div class="pagematerial">
+      <div class="material">
+
+        <!-- ===== Overview / course description ===== -->
+        <div class="first-section" style="width:100%; float:none;">
+
+          <h1>CIS 7000: Machine Learning Ecosystems (Fall 2026) </h1>
+
+          <table class="info-table">
+            <tr>
+              <td>Instructor</td>
+              <td><a href="https://mjagadeesan.github.io">Meena Jagadeesan</a></td>
+            </tr>
+            <tr>
+              <td>Lectures</td>
+              <td>Monday / Wednesday 10:15am - 11:45am (room TBD) </td>
+            </tr>
+              <tr>
+              <td>Office Hours</td>
+              <td>Weekly, TBD </td>
+            </tr>
+          </table>
+
+        </div>
+
+        <div class="second-section">
+
+          <!-- ===== Course Overview ===== -->
+          <h3><a id="overview"></a><span>Course Overview</span></h3>
+         <span> This graduate-level course covers topics in machine learning ecosystems, building up to the research frontier. While machine learning (ML) models are classically analyzed in isolation, ML models interact with a broader ecosystem of other models, humans, companies, and regulators at deployment. How do these interactions impact performance, safety, and society? How can ML models be designed and evaluated to account for these interactions? We will develop a technical toolkit to study these questions, introducing tools from machine learning foundations, game theory, and dynamical systems. Each unit of the course will be grounded in a specific type of ecosystem, ranging from bank lending decisions, to content recommendation platforms, to LLM agent populations, to mixed-autonomy traffic, to the market of ML model-providers.</span><br><br>
+
+          <span>  The class will combine lecture and discussion; slides will be posted after each lecture. The goal of this class is for students to gain exposure to topics on machine learning ecosystems, to build up the technical toolkit to understand the research frontier of this area, to develop presentation skills, and to learn how to think through questions on the fly. There will be no problem sets, exams, or required readings; instead, the main assignments are a hands-on mini-project and a final project. Grading will be based on the final project (70%; 15% proposal + 10% midterm report + 20% final report + 35% final presentation), mini-project (20%), and in-class participation (10%). While there are no official prerequisites for this course, students are expected to have mathematical maturity, and students will engage with a range of different technical ideas over the course of the semester. </span><br>
+
+         <!-- ===== Project and Mini project ===== -->
+          <h4><a id="miniproject"></a><span>Mini-Project</span></h4>
+        <span> Each student will pick one of the papers from <a href=#optionalreadinglist>this list</a> that is marked with a <span class="tag">(*)</span>, do a mini-project based on the paper, and present their findings to the class. </span><br><br>
+
+           <span> The mini-project should reflect your engagement with the paper, and be centered around a (small-scale) new result that is not directly present in the paper. It can be:</span>
+           <ul>
+             <li>a simulation that reproduces one of the main results,</li>
+             <li>a mathematical example that shows the intuition for a theorem or an empirical result, or</li>
+             <li>a simulation or example that relaxes some of the assumptions in the paper, showing how the results extend or break down.</li>
+           </ul>
+
+        <span>  You'll share your findings from your mini-project with the class. First, you'll give a 10 minute presentation, which will consist of a 5 minute overview of the paper, and 5 minutes on your (small-scale) result. After that, we'll spend about 10 minutes on Q&A about the paper and the project. You should expect in-depth questions about your result and about the setup of the paper. Following your presentation, I'll set up a 10-15 minute meeting with you to give you feedback on your presentation. </span><br>
+
+
+          <h4><a id="project"></a><span>Final project</span></h4>
+          <span>Students will conduct a final project geared towards original research in the area of machine learning ecosystems. Students can work individually or in groups of 2.</span><br><br>
+
+          <span>Your final project can take a range of different forms, including:</span>
+          <ul>
+            <li>Pick one of the lines of work studied in class. Investigate how to extend the model to incorporate a novel form of interaction or to relax one of the assumptions. Perform an analysis of your model extension either mathematically or empirically.</li>
+            <li>Pick one of the lines of work studied in class which make simplifying assumptions about how the underlying machine learning model works. Perform an empirical evaluation with a realistic ML model to investigate the gap between the theoretical findings and empirical reality.</li>
+            <li>Apply the ideas in this class to a machine learning ecosystem that was not covered in class. Look for related work (if there is any). Identify a novel interaction mode between ML models, humans, and companies. Perform a preliminary mathematical or empirical analysis.</li>
+          </ul>
+
+
+           <span>Students will submit a 1-page proposal, a 2-page progress report, and a 5 page final report. Students will also give a final presentation at the end of the semester. The length of the presentation slot will be determined by the number of projects. A third of the presentation slot will be devoted to in-depth questions (by me and by the class) about the motivation and technical details of the project; this will give you an opportunity to explain your thought process. </span>
+          
+
+          <!-- ===== Schedule ===== -->
+          <h3><a id="schedule"></a><span>Schedule</span></h3>
+          <span class="tbd">Tentative schedule &mdash; subject to change.</span><br><br>
+
+          <table class="schedule">
+            <thead>
+              <tr>
+                <th class="date">Date</th>
+                <th>Unit</th>
+                <th>Lecture</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="date">Wed, Aug 26</td>
+                <td>Introduction.</td>
+                <td>Introduction.</td>
+              </tr>
+              <tr>
+                <td class="date">Mon, Aug 31</td>
+                <td>Unit 1: Strategic Classification.</td>
+                <td>Motivating applications (bank lending, government resource allocation) and empirical case studies.</td>
+              </tr>
+              <tr>
+                <td class="date">Wed, Sep 2</td>
+                <td>Unit 1: Strategic Classification.</td>
+                <td>Background on ML Pipeline and Game Theory.</td>
+              </tr>
+              <tr>
+                <td class="date">Mon, Sep 7</td>
+                <td colspan="2" class="tbd"><em>Labor Day &mdash; no class</em></td>
+              </tr>
+              <tr>
+                <td class="date">Wed, Sep 9</td>
+                <td>Unit 1: Strategic Classification.</td>
+                <td>Theoretical framework and results.</td>
+              </tr>
+              <tr>
+                <td class="date">Mon, Sep 14</td>
+                <td>Unit 2: Content Recommendation Platforms.</td>
+                <td>Background on ML Pipeline.</td>
+              </tr>
+              <tr>
+                <td class="date">Wed, Sep 16</td>
+                <td>Unit 2: Content Recommendation Platforms.</td>
+                <td>Supply-side effects.</td>
+              </tr>
+              <tr>
+                <td class="date">Mon, Sep 21</td>
+                <td>Unit 2: Content Recommendation Platforms.</td>
+                <td>LLMs used in search and creation.</td>
+              </tr>
+              <tr>
+                <td class="date">Wed, Sep 23</td>
+                <td>Unit 2: Content Recommendation Platforms.</td>
+                <td>Dynamical systems background and user preferences.</td>
+              </tr>
+              <tr>
+                <td class="date">Mon, Sep 28</td>
+                <td>Unit 2: Content Recommendation Platforms.</td>
+                <td>Societal impacts and policy.</td>
+              </tr>
+              <tr>
+                <td class="date">Wed, Sep 30</td>
+                <td>Unit 3: LLM agents.</td>
+                <td>Background on ML Pipeline.</td>
+              </tr>
+              <tr>
+                <td class="date">Mon, Oct 5</td>
+                <td>Unit 3: LLM agents.</td>
+                <td>Scaling laws and evaluation.</td>
+              </tr>
+              <tr>
+                <td class="date">Wed, Oct 7</td>
+                <td>Unit 3: LLM agents.</td>
+                <td>Human-LLM Interactions.</td>
+              </tr>
+              <tr>
+                <td class="date">Mon, Oct 12</td>
+                <td>Unit 3: LLM agents.</td>
+                <td>Multi-agent systems of LLMs.</td>
+              </tr>
+              <tr>
+                <td class="date">Wed, Oct 14</td>
+                <td colspan="2">Project proposal workshop.</td>
+              </tr>
+              <tr>
+                <td class="date">Mon, Oct 19</td>
+                <td>Unit 3: LLM agents.</td>
+                <td>Agentic and multi-agent safety.</td>
+              </tr>
+              <tr>
+                <td class="date">Wed, Oct 21</td>
+                <td>Unit 3: LLM agents.</td>
+                <td>Societal and Economic Impacts.</td>
+              </tr>
+              <tr>
+                <td class="date">Mon, Oct 26</td>
+                <td>Unit 4: Traffic / Autonomous Vehicles.</td>
+                <td>Background on ML Pipeline.</td>
+              </tr>
+              <tr>
+                <td class="date">Wed, Oct 28</td>
+                <td>Unit 4: Traffic / Autonomous Vehicles.</td>
+                <td>Congestion and Braess Paradox.</td>
+              </tr>
+              <tr>
+                <td class="date">Mon, Nov 2</td>
+                <td>Unit 4: Traffic / Autonomous Vehicles.</td>
+                <td>Mixed autonomy traffic.</td>
+              </tr>
+              <tr>
+                <td class="date">Wed, Nov 4</td>
+                <td colspan="2">Project workday.</td>
+              </tr>
+              <tr>
+                <td class="date">Mon, Nov 9</td>
+                <td>Unit 4: Traffic / Autonomous Vehicles.</td>
+                <td>Liability.</td>
+              </tr>
+              <tr>
+                <td class="date">Wed, Nov 11</td>
+                <td>Unit 5: Market of ML Model-Providers.</td>
+                <td>Economic Background.</td>
+              </tr>
+              <tr>
+                <td class="date">Mon, Nov 16</td>
+                <td>Unit 5: Market of ML Model-Providers.</td>
+                <td>Monoculture and Competition</td>
+              </tr>
+              <tr>
+                <td class="date">Wed, Nov 18</td>
+                <td>Unit 5: Market of ML Model-Providers.</td>
+                <td>Background on Online Learning.</td>
+              </tr>
+              <tr>
+                <td class="date">Mon, Nov 23</td>
+                <td>Unit 5: Market of ML Model-Providers.</td>
+                <td>Incentives from Learning from User Interactions.</td>
+              </tr>
+              <tr>
+                <td class="date">Wed, Nov 25</td>
+                <td colspan="2" class="tbd"><em>Friday class schedule &mdash; no class</em></td>
+              </tr>
+              <tr>
+                <td class="date">Mon, Nov 30</td>
+                <td colspan="2">Wrap up.</td>
+              </tr>
+              <tr>
+                <td class="date">Wed, Dec 2</td>
+                <td colspan="2">Lecture or project presentations.</td>
+              </tr>
+              <tr>
+                <td class="date">Mon, Dec 7</td>
+                <td colspan="2">Project presentations.</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <!-- ===== Relevant papers ===== -->
+          <h3><a id="optionalreadinglist"></a><span>A sampling of relevant papers</span></h3>
+          <span class="tbd">Tentative &mdash; subject to change.</span><br><br>
+
+          <div class="readinglist">
+            <span><span class="tag">(C)</span> marks papers and surveys that will likely be covered in class. <span class="tag">(*)</span> marks papers that students can choose for their mini-project, and <span class="tag">(S)</span> marks useful surveys. We may add new papers to the list in the coming weeks. </span>
+
+            <p class="unit">Unit 1: Strategic Classification</p>
+            <ul>
+              <li><span class="tag">(C)</span> Moritz Hardt, Nimrod Megiddo, Christos Papadimitriou, and Mary Wootters. <em>Strategic Classification.</em> ITCS 2016.</li>
+              <li><span class="tag">(C)</span> Daniel Bj&ouml;rkegren, Joshua E. Blumenstock, and Samsun Knight. <em>Manipulation-Proof Machine Learning.</em> arXiv 2020.</li>
+              <li><span class="tag">(*)</span> Jon Kleinberg and Manish Raghavan. <em>How Do Classifiers Induce Agents to Invest Effort Strategically?</em> EC 2019.</li>
+              <li><span class="tag">(*)</span> Sagi Levanon and Nir Rosenfeld. <em>Strategic Classification Made Practical.</em> ICML 2021.</li>
+              <li><span class="tag">(*)</span> Lily Hu, Nicole Immorlica, and Jennifer Wortman Vaughan. <em>The Disparate Effects of Strategic Manipulation.</em> FAccT 2019.</li>
+              <li><span class="tag">(S)</span> Chara Podimata. <em>Incentive-Aware Machine Learning; Robustness, Fairness, Improvement &amp; Causality.</em> ACM SIGecom Exchanges, Vol. 22, No. 2, 2025.</li>
+              <li><span class="tag">(S)</span> Nir Rosenfeld. <em>Strategic ML: How to Learn With Data That &lsquo;Behaves&rsquo;.</em> WSDM 2024 (tutorial).</li>
+            </ul>
+
+            <p class="unit">Unit 2: Content Recommendation Platforms</p>
+            <ul>
+              <li><span class="tag">(C)</span> Meena Jagadeesan, Nikhil Garg, and Jacob Steinhardt. <em>Supply-Side Equilibria in Recommender Systems.</em> NeurIPS 2023.</li>
+              <li><span class="tag">(C)</span> Sarah Dean and Jamie Morgenstern. <em>Preference Dynamics Under Personalized Recommendations.</em> EC 2022.</li>
+              <li><span class="tag">(C)</span> Fan Yao, Chuanhao Li, Denis Nekipelov, Hongning Wang, and Haifeng Xu. <em>Human vs. Generative AI in Content Creation Competition: Symbiosis or Conflict?</em> ICML 2024.</li>
+              <li><span class="tag">(C)</span> Yihang Wu, Jiajun Tang, Jinfei Liu, Haifeng Xu, and Fan Yao. <em>Do AI Overviews Benefit Search Engines? An Ecosystem Perspective.</em> arXiv 2026.</li>
+              <li><span class="tag">(*)</span> Fan Yao, Chuanhao Li, Denis Nekipelov, Hongning Wang, and Haifeng Xu. <em>How Bad is Top-K Recommendation under Competing Content Creators?</em> ICML 2023.</li>
+              <li><span class="tag">(*)</span> Boaz Taitler and Omer Ben-Porat. <em>Braess's Paradox of Generative AI.</em> AAAI 2025.</li>
+              <li><span class="tag">(S)</span> Sarah Dean, Evan Dong, Meena Jagadeesan, and Liu Leqi. <em>Accounting for AI and Users Shaping One Another: The Role of Mathematical Models.</em> TMLR 2025.</li>
+
+            </ul>
+
+            <p class="unit">Unit 3: LLM Agents</p>
+            <ul>
+              <li><span class="tag">(C)</span> Jared Kaplan, Sam McCandlish, Tom Henighan, et al. <em>Scaling Laws for Neural Language Models.</em> arXiv 2020.</li>
+              <li><span class="tag">(C)</span> Jordan Hoffmann, Sebastian Borgeaud, Arthur Mensch, et al. <em>Training Compute-Optimal Large Language Models</em> (Chinchilla). NeurIPS 2022.</li>
+              <li><span class="tag">(C)</span> Thomas Kwa, Ben West, Joel Becker, et al. (METR). <em>Measuring AI Ability to Complete Long Software Tasks.</em> 2025.</li>
+              <li><span class="tag">(C)</span> Yilun Du, Shuang Li, Antonio Torralba, Joshua B. Tenenbaum, and Igor Mordatch. <em>Improving Factuality and Reasoning in Language Models through Multiagent Debate.</em> ICML 2024.</li>
+              <li><span class="tag">(C)</span> Matei Zaharia, Omar Khattab, Lingjiao Chen, et al. <em>The Shift from Models to Compound AI Systems.</em> BAIR Blog, 2024.</li>
+              <li><span class="tag">(C)</span> LangChain. <em>How and When to Build Multi-Agent Systems.</em> LangChain blog, 2025.</li>
+              <li><span class="tag">(C)</span> Lilian Weng. <em>Reward Hacking in Reinforcement Learning.</em> Lil'Log (blog), 2024.</li>
+              <li><span class="tag">(C)</span> Sara Fish, Yannai A. Gonczarowski, and Ran I. Shorrer. <em>Algorithmic Collusion by Large Language Models.</em> arXiv 2024.</li>
+              <li><span class="tag">(C)</span> Gagan Bansal, Tongshuang Wu, Joyce Zhou, Raymond Fok, Besmira Nushi, Ece Kamar, Marco Tulio Ribeiro, and Daniel S. Weld. <em>Does the Whole Exceed its Parts? The Effect of AI Explanations on Complementary Team Performance.</em> CHI 2021.</li>
+              <li><span class="tag">(C)</span> Hamsa Bastani and Gerard P. Cachon. <em>The Human-AI Contracting Paradox.</em> SSRN working paper, 2025.</li>
+              <li><span class="tag">(C)</span> Aaron Chatterji, Thomas Cunningham, David J. Deming, Zo&euml; Hitzig, Christopher Ong, Carl Yan Shan, and Kevin Wadman. <em>How People Use ChatGPT.</em> NBER Working Paper, 2025.</li>
+              <li><span class="tag">(C)</span> David M. Rothschild, Markus Mobius, Jake M. Hofman, Eleanor W. Dillon, Daniel G. Goldstein, Nicole Immorlica, Sonia Jaffe, Brendan Lucier, Aleksandrs Slivkins, and Matthew Vogel. <em>The Agentic Economy.</em> Communications of the ACM (Viewpoint), 2026.</li>
+              <li><span class="tag">(*)</span> Sayash Kapoor, Benedikt Stroebl, Peter Kirgis, et al. <em>Holistic Agent Leaderboard: The Missing Infrastructure for AI Agent Evaluation.</em> arXiv 2025.</li>
+              <li><span class="tag">(*)</span> Mert Cemri, Melissa Z. Pan, Shuyi Yang, Lakshya A. Agrawal, et al. <em>Why Do Multi-Agent LLM Systems Fail?</em> arXiv 2025.</li>
+              <li><span class="tag">(*)</span> Joon Sung Park, Joseph C. O'Brien, Carrie J. Cai, Meredith Ringel Morris, Percy Liang, and Michael S. Bernstein. <em>Generative Agents: Interactive Simulacra of Human Behavior.</em> UIST 2023.</li>
+              <li><span class="tag">(*)</span> Sumeet Ramesh Motwani, Mikhail Baranchuk, Martin Strohmeier, Vijay Bolina, Philip H. S. Torr, Lewis Hammond, and Christian Schroeder de Witt. <em>Secret Collusion among AI Agents: Multi-Agent Deception via Steganography.</em> NeurIPS 2024.</li>
+              <li><span class="tag">(*)</span> Natalie Shapira, Chris Wendler, Avery Yen, et al. <em>Agents of Chaos.</em> arXiv 2026.</li>
+              <li><span class="tag">(*)</span> Myra Cheng, Cinoo Lee, Pranav Khadpe, Sunny Yu, Dyllan Han, and Dan Jurafsky. <em>Sycophantic AI Decreases Prosocial Intentions and Promotes Dependence.</em> Science 2026.</li>
+              <li><span class="tag">(*)</span> Brendan Lucier, Nicole Immorlica, Markus Mobius, Aleksandrs Slivkins, Daniel G. Goldstein, Jake M. Hofman, Sonia Jaffe, and David M. Rothschild. <em>Agentic Markets: Equilibrium Effects of Improving Consumer Search.</em> arXiv 2026.</li>
+              <li><span class="tag">(S)</span> Lewis Hammond, Alan Chan, Jesse Clifton, et al. <em>Multi-Agent Risks from Advanced AI.</em> 2025.</li>
+
+
+            </ul>
+
+            <p class="unit">Unit 4: Traffic / Autonomous Vehicles</p>
+            <ul>
+              <li><span class="tag">(C)</span> David Easley and Jon Kleinberg. <em>Networks, Crowds, and Markets: Reasoning about a Highly Connected World,</em> Chapter 8: Modeling Network Traffic using Game Theory. Cambridge University Press, 2010.</li>
+              <li><span class="tag">(C)</span> Dorsa Sadigh, Shankar Sastry, Sanjit A. Seshia, and Anca D. Dragan. <em>Planning for Autonomous Cars that Leverage Effects on Human Actions.</em> RSS 2016.</li>
+              <li><span class="tag">(C)</span> Cathy Wu, Aboudy Kreidieh, Eugene Vinitsky, and Alexandre M. Bayen. <em>Emergent Behaviors in Mixed-Autonomy Traffic.</em> CoRL 2017.</li>
+              <li><span class="tag">(*)</span> Erdem B&#305;y&#305;k, Daniel A. Lazar, Ramtin Pedarsani, and Dorsa Sadigh. <em>Incentivizing Efficient Equilibria in Traffic Networks with Mixed Autonomy.</em> IEEE Transactions on Control of Network Systems, 2021.</li>
+              <li><span class="tag">(*)</span> Cathy Wu, Alexandre M. Bayen, and Ankur Mehta. <em>Stabilizing Traffic with Autonomous Vehicles.</em> ICRA 2018.</li>
+              <li><span class="tag">(*)</span> Daron Acemoglu, Ali Makhdoumi, Azarakhsh Malekian, and Asuman Ozdaglar. <em>Informational Braess' Paradox: The Effect of Information on Traffic Congestion.</em> Operations Research, 2018.</li>
+            </ul>
+
+            <p class="unit">Unit 5: Market of ML Model-Providers</p>
+            <ul>
+              <li><span class="tag">(C)</span> Omer Ben-Porat and Moshe Tennenholtz. <em>Regression Equilibrium.</em> EC 2019.</li>
+              <li><span class="tag">(C)</span> Jon Kleinberg and Manish Raghavan. <em>Algorithmic Monoculture and Social Welfare.</em> PNAS 2021.</li>
+              <li><span class="tag">(C)</span> Meena Jagadeesan, Michael I. Jordan, Jacob Steinhardt, and Nika Haghtalab. <em>Improved Bayes Risk Can Yield Reduced Social Welfare Under Competition.</em> NeurIPS 2023.</li>
+              <li><span class="tag">(C)</span> Aleksandrs Slivkins. <em>Introduction to Multi-Armed Bandits,</em> Chapter 11: Bandits and Agents. Foundations and Trends in Machine Learning, 2019.</li>
+              <li><span class="tag">(C)</span> Yishay Mansour, Aleksandrs Slivkins, and Zhiwei Steven Wu. <em>Competing Bandits: Learning Under Competition.</em> ITCS 2018.</li>
+              <li><span class="tag">(*)</span> Jinshuo Dong, Hadi Elzayn, Shahin Jabbari, Michael Kearns, and Zachary Schutzman. <em>Equilibrium Characterization for Data Acquisition Games.</em> IJCAI 2019.</li>
+              <li><span class="tag">(*)</span> Meena Jagadeesan, Michael I. Jordan, and Jacob Steinhardt. <em>Safety versus Performance: How Multi-Objective Learning Reduces Barriers to Market Entry.</em> PNAS 2025.</li>
+              <li><span class="tag">(*)</span> Benjamin Laufer, Jon Kleinberg, and Hoda Heidari. <em>Fine-Tuning Games: Bargaining and Adaptation for General-Purpose Models.</em> WWW 2024.</li>
+              <li><span class="tag">(*)</span> Ander Artola Velasco, Dimitrios Rontogiannis, Stratis Tsirtsis, and Manuel Gomez-Rodriguez. <em>Test-Time Compute Games.</em> arXiv 2026.</li>
+              <li><span class="tag">(*)</span> Jens Pr&uuml;fer and Christoph Schottm&uuml;ller. <em>Competing with Big Data.</em> The Journal of Industrial Economics, 2021.</li>
+            </ul>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </body>
+</html>

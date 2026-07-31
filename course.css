@@ -1,0 +1,95 @@
+/* Course page additions, matching index.css color/typography */
+
+.course-subtitle {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.info-table {
+    margin-bottom: 10px;
+}
+
+.info-table {
+    border-spacing: 0 18px;
+}
+
+.info-table td {
+    padding: 0 12px 0 0;
+    vertical-align: top;
+}
+
+.info-table td:first-child {
+    font-weight: 700;
+    white-space: nowrap;
+}
+
+/* Schedule table */
+.schedule {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+
+.schedule th,
+.schedule td {
+    text-align: left;
+    vertical-align: top;
+    padding: 8px 10px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.schedule th {
+    font-weight: 700;
+    border-bottom: 2px solid #DB7093;
+}
+
+.schedule tr:hover td {
+    background-color: #faf3f6;
+}
+
+.schedule .date {
+    white-space: nowrap;
+    width: 110px;
+}
+
+.schedule a {
+    color: #DB7093;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.schedule a:hover {
+    cursor: pointer;
+    color: purple;
+}
+
+.tbd {
+    color: #999;
+}
+
+/* Reading list */
+.readinglist {
+    font-size: 15px;
+}
+
+.readinglist .unit {
+    font-weight: 700;
+    margin: 20px 0 6px;
+}
+
+.readinglist ul {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.readinglist li {
+    margin-bottom: 6px;
+}
+
+.readinglist .tag {
+    color: #DB7093;
+    font-weight: 700;
+    margin-right: 2px;
+}
