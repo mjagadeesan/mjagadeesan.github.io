@@ -10,3 +10,6 @@ vendor/
 
 # Ignore instructions
 instructions.txt
+
+# macOS metadata
+.DS_Store
